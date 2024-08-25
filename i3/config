@@ -225,3 +225,6 @@ bindsym $mod+Control+l workspace next
 exec_always --no-startup-id ~/.config/polybar/launch.sh --forest 
 
 exec_always "xrandr --output eDP-1 --mode 1920x1080"
+
+exec --no-startup-id i3-msg 'workspace 2:Web; exec /usr/bin/brave-browser'
+exec --no-startup-id i3-msg 'workspace 1:Alacritty; exec /snap/bin/alacritty'
