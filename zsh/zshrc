@@ -56,3 +56,9 @@ source $HOME/.atuin/bin/env
 eval "$(atuin init zsh)"
 
 alias upgrade="sudo apt-get update && sudo apt-get upgrade"
+
+_fix_cursor() {
+   echo -ne '\e[5 q'
+}
+
+precmd_functions+=(_fix_cursor)
