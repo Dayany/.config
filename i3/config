@@ -217,7 +217,7 @@ client.background       #F8F8F2
 # }
 
 # keybinding to lock screen
-bindsym Control+Mod1+l exec "i3lock -c 000000"
+bindsym $mod+F12 exec "i3lock -c 000000"
 bindsym $mod+Control+l workspace next
 
 # exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -228,3 +228,14 @@ exec_always "xrandr --output eDP-1 --mode 1920x1080"
 
 exec --no-startup-id i3-msg 'workspace 2:Web; exec /usr/bin/brave-browser'
 exec --no-startup-id i3-msg 'workspace 1:Alacritty; exec /snap/bin/alacritty'
+
+
+
+bindsym $mod+F11 exec XF86AudioRaiseVolume
+
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+
