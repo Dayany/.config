@@ -218,6 +218,7 @@ client.background       #F8F8F2
 
 # keybinding to lock screen
 bindsym $mod+F12 exec "i3lock -c 000000"
+bindsym $mod+Control+h workspace previous 
 bindsym $mod+Control+l workspace next
 
 # exec_always --no-startup-id $HOME/.config/polybar/launch.sh
