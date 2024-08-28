@@ -191,7 +191,7 @@ bindsym $mod+r mode "resize"
 # }
 
 
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 3
 
 # class                 border  bground text    indicator child_border
 client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
@@ -251,12 +251,10 @@ bindsym $mod+Ctrl+less move workspace to output left
 bindsym --release Print exec gnome-screenshot
 bindsym --release $mod+Shift+4 exec gnome-screenshot -i
 
-exec_always --no-startup-id feh --bg-fill ~/Desktop/space.jpg
+exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.png
 
 exec_always --no-startup-id flashfocus
 
-default_border pixel 3 
-default_floating_border pixel 3
 
 
 gaps inner 10px
