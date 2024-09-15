@@ -1,3 +1,14 @@
 return {
-  { "akinsho/toggleterm.nvim", version = "*", config = true },
+  {
+    "akinsho/toggleterm.nvim",
+    opts = {
+      options = {
+        options = {
+          theme = vim.g.colors_name,
+        },
+      },
+    },
+    version = "*",
+    config = true,
+  },
 }
