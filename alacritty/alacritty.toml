@@ -1,2 +1,6 @@
+[general]
 import = ["/home/dayany/.config/alacritty/dracula.toml"]
 
+
+[env]
+SHELL = "/usr/bin/zsh" # Adjust the path if necessary

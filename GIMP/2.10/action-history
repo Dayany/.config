@@ -1,0 +1,13 @@
+# GIMP action-history
+
+(history-item "view-scroll-right-border" 2)
+(history-item "image-crop-to-content" 1)
+(history-item "view-scroll-left-border" 0)
+(history-item "view-scroll-top-border" 0)
+(history-item "edit-clear" 0)
+(history-item "file-save" 0)
+(history-item "file-save-as" 0)
+(history-item "file-overwrite" 0)
+(history-item "file-quit" 1)
+
+# end of action-history
